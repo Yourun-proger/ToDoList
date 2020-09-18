@@ -1,0 +1,48 @@
+body{
+    background-color: #e1e1e1;
+    display: flex;
+    justify-content: center;
+}
+.block{
+    color: white;
+    font-family: Segoe UI;
+    font-size: 20pt;
+    text-align: center;
+    width: 1520px;
+    height: 735px;
+    background-color: crimson;
+    border-radius: 16px;
+}
+input {
+    color: white;
+    background-color: #89002f;
+    font-family: Segoe UI;
+    font-size: 20pt;
+    border: none;
+    border-radius: 16px;
+    padding: 15px;
+    transition: all 0.5s ease-in;
+}
+input:hover{
+    color: #89002f;
+    background-color: white;
+}
+button {
+    color: white;
+    background-color: #89002f;
+    font-family: Segoe UI;
+    font-size: 18pt;
+    border: none;
+    border-radius: 16px;
+    width: 65px;
+    height: 55px;
+    padding: 10px;
+    transition: all 0.5s ease-in;
+}
+button:hover{
+    color: #89002f;
+    background-color: white;
+}
+#list h3:hover{
+    text-decoration: line-through;
+}
