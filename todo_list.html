@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Todo list</title>
+    <link href="indexStyle.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="block">
+    <h1>To Do List:</h1>
+    <form onsubmit="addItem()">
+    <input type="text" id="box" placeholder="input item">
+    <button>+</button>
+    </form>
+    <div id="list"></div>
+    <script>
+        if(localStorage.storedList){
+            loadList();
+        }
+    </script>
+</div>
+</body>
+</html>
